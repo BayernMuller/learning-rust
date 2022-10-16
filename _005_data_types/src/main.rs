@@ -26,7 +26,6 @@ fn main() {
 
     // array type
     let r: [i32; 5] = [1, 2, 3, 4, 5];
-
     r[0] == 1;              // true
     r[1] == 2;              // true
     r[2] == 3;              // true
@@ -34,29 +33,23 @@ fn main() {
     r[4] == 5;              // true
 
     let s: [i32; 5] = [0; 5];
-
-
+    s[0] == 0;              // true
+    s[1] == 0;              // true
+    s[2] == 0;              // true
+    s[3] == 0;              // true
+    s[4] == 0;              // true
 
     // string type
     let t: &str = "Hello, world!";
 
     // tuple type
     let u: (i32, f64, u8) = (500, 6.4, 1);
-    let (v, w, x) = u;
-
     u.0 == 500;             // true
     u.1 == 6.4;             // true
     u.2 == 1;               // true
 
-    
-
-
-
-
-
-
-
-
-    
-
+    let (v, w, x) = u;
+    v == 500;               // true
+    w == 6.4;               // true
+    x == 1;                 // true
 }
