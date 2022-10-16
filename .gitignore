@@ -8,3 +8,6 @@
 
 # 3. unignore every file with an extension
 !*.*
+
+# - Ignore rust cargo files
+target/
