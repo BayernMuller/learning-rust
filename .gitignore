@@ -1,0 +1,10 @@
+# - To ignore executable binaries
+
+# 1. ignore everything
+*
+
+# 2. unignore every directory
+!*/
+
+# 3. unignore every file with an extension
+!*.*
